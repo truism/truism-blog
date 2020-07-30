@@ -5,8 +5,7 @@
         </el-row>
         <el-row :gutter="20">
             <el-col :span="18">
-                    <!--<app-blogList></app-blogList>-->
-                    <app-blog-detail></app-blog-detail>
+                <router-view></router-view>
             </el-col>
 
         </el-row>
@@ -14,26 +13,19 @@
 </template>
 
 <script>
+    console.log(process.env.VUE_APP_BASE_API);
     import menu from "@/components/menu";
-    import blogList from "@/components/blog-list";
-    import blogDetail from "@/components/blog-detail"
 
     export default {
         name: "index",
         components: {
             'app-menu' : menu,
-            'app-blog-list': blogList,
-            'app-blog-detail': blogDetail,
         },
 
         data() {
             return {
 
             }
-        },
-
-        created: {
-
         },
 
         methods: {

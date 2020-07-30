@@ -1,20 +1,22 @@
 <template>
     <div>
         <div>
-            <h3 style="margin-left: 26px; font-style: italic; font-size: 36px;">Truism</h3>
+            <h3 style="margin-left: 26px; font-style: italic; font-size: 36px;">
+                <a href="#" @click.prevent="goToHome" style="text-decoration: none; color: #333333;">Truism</a>
+            </h3>
         </div>
         <ul class="menu">
             <li>
-                <a @click="goToHome">首页</a>
+                <a href="#" @click="goToHome">首页</a>
             </li>
             <li>
-                <a @click="goToArchive">归档</a>
+                <a href="#" @click="goToArchive">归档</a>
             </li>
             <li>
-                <a @click="goToMessage">留言</a>
+                <a href="#" @click="goToMessage">留言</a>
             </li>
             <li>
-                <a @click="goToAbout">关于</a>
+                <a href="#" @click="goToAbout">关于</a>
             </li>
         </ul>
     </div>
@@ -31,19 +33,19 @@
 
         methods: {
             goToHome: function () {
-
+                this.$router.push("/");
             },
 
             goToArchive: function () {
-
+                this.$router.push("/index/blog-archive");
             },
 
             goToMessage: function () {
-
+                this.$router.push("/index/contact");
             },
 
             goToAbout: function () {
-
+                this.$router.push("/index/about");
             },
         }
     }
