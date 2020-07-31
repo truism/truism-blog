@@ -1,12 +1,12 @@
 import request from "@/utils/request";
 
-export default {
-    getBlogList(page) {
+export default ({
+
+    getBlogDetail: function (id) {
         return request({
-            url: `/blog/list/${page}`,
+            url: `/blog/detail/${id}`,
             method: "GET"
         })
     },
 
-
-}
+})

@@ -33,6 +33,8 @@
 
         methods: {
             goToHome: function () {
+                this.$store.commit('init');
+                console.log(this.$store.state.pageNum);
                 this.$router.push("/");
             },
 
