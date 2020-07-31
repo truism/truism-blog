@@ -1,29 +1,4 @@
-# truism-blog
+# tTruism博客前台
 
-## Project setup
-```
-npm install
-```
+v0.0.1 已完成博客列表、博客详情、留言、关于等功能
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
