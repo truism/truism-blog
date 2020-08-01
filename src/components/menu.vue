@@ -10,9 +10,6 @@
                 <a href="#" @click="goToHome">首页</a>
             </li>
             <li>
-                <a href="#" @click="goToArchive">归档</a>
-            </li>
-            <li>
                 <a href="#" @click="goToMessage">留言</a>
             </li>
             <li>

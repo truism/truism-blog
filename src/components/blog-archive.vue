@@ -6,7 +6,8 @@
 
 <script>
     export default {
-        name: "blog-archive"
+        name: "blog-archive",
+
     }
 </script>
 
