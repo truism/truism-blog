@@ -71,7 +71,7 @@
 <style scoped>
 
     .container {
-        margin-left: 280px;
+        margin-left: 360px;
         margin-top: 46px;
         margin-bottom: 200px;
     }
