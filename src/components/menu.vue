@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="base-container">
         <div>
             <h3 style="margin-left: 26px; font-style: italic; font-size: 36px;">
                 <a href="#" @click.prevent="goToHome" style="text-decoration: none; color: #333333;">Truism</a>
@@ -51,6 +51,11 @@
 </script>
 
 <style scoped>
+
+    div.base-container {
+        margin-left: 120px;
+    }
+
     ul.menu {
         list-style: none;
         margin: 8px 120px 40px 160px;
