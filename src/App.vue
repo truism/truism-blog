@@ -18,7 +18,8 @@ export default {
 
   body {
     font-family: 仿宋;
-    background-color: azure;
+    font-size: 18px;
+    background-color: beige;
     margin: 0px auto;
   }
 
